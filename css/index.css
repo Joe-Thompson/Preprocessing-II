@@ -1,3 +1,16 @@
+.logoFormat {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-right: 31rem;
+}
+.navFormat {
+  display: flex;
+  align-items: center;
+  color: #212529;
+  margin: 0 1rem;
+  padding: 0 1rem;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -168,6 +181,43 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+#logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-right: 31rem;
+}
+.top-Nav {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.top-Nav nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.top-Nav nav a {
+  display: flex;
+  align-items: center;
+  color: #212529;
+  margin: 0 1rem;
+  padding: 0 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.footer {
+  width: 100%;
+  border-top: 2px dashed silver;
+  background: #FFEBCD;
+}
+.footer p {
+  text-align: center;
+  color: #212529;
+  font-size: 1.6rem;
+  padding: 20px;
+}
 .home .content-section {
   margin: 30px 0;
   display: flex;
@@ -213,4 +263,22 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.header {
+  border-bottom: 2px dashed #C0C0C0;
+  padding-bottom: 1.5rem;
+}
+.header h2 {
+  margin-top: 2rem;
+}
+.btn {
+  height: 40px;
+  width: 85%;
+  border-radius: 1.5rem;
+  background-color: #17A2B8;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
