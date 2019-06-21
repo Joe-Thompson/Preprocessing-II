@@ -1,1 +1,35 @@
 // Mixins in here
+.logoFormat {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-right: 31rem;
+}
+
+.navFormat {
+  display: flex;
+  align-items: center;
+  color: @shark;
+  margin: 0 1rem;
+  padding: 0 1rem;
+}
+
+.btn-format(@height, @width, @radius, @bg, @color, @font-size) {
+  height: @height;
+  width: @width;
+  border-radius: @radius;
+  background-color: @bg;
+  color: @color;
+  font-size: @font-size;
+}
+
+.btn-display(@justify, @align) {
+  display: flex;
+  justify-content: @justify;
+  align-items: @align;
+}
+
+.mobile-text-display {
+  width: 100%;
+  margin: 2rem;
+}
